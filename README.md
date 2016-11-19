@@ -6,6 +6,9 @@ SCTF{english_leet_or_md5}
 ### Deadline
 12.11.2016 
 
+### Contest date
+19.11.2016 
+
 ### TODO
-10 tasks
+12 tasks
 2 services
