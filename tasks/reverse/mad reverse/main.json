@@ -1,0 +1,44 @@
+{
+	"game":"SibSUTIS CTF 2016",
+	"name":"mad reverse",
+	"category":"reverse",
+	"description":{
+		"RU":"Всё просто - хватай бинарник и побеждай!",
+		"EN":"No description"
+	},
+	"status": "verified",
+	"hints":[
+		{
+			"RU":"Что ты знаешь про дизассемблер?",
+			"EN":"No hints"
+		}
+	],
+	"solve":{
+			"RU":"Дизассемблировать код и посмотреть, как он работает. В итоге видно финальный флаг",
+			"EN":"No description"
+	},
+	"value":100,
+	"flag_type":"static",
+	"flag_key":"SCTF{16NSKyralden}",
+	"files":[
+		{
+			"name":"rev.exe",
+			"location":"rev.exe"
+		}
+	],
+	"links":[
+		{
+			"dropbox":"",
+			"yandex":""
+		}
+	],
+	"authors":[
+		{
+			"team":"Life",
+			"name":"Ghost Ralden",
+			"contacts":[
+				"@RaldenProg"
+			]
+		}
+	]
+}

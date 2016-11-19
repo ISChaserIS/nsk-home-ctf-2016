@@ -1,0 +1,40 @@
+{
+	"game":"SibSUTIS CTF 2016",
+	"name":"random",
+	"category":"joy",
+	"description":{
+		"RU":"Доктор X в молодости занимался разработкой ИИ, и вот вам в руки попалась эта адская машина. Сможете обыграть?",
+		"EN":"No description"
+	},
+	"status": "verified",
+	"hints":[
+		{
+			"RU":"включай random",
+			"EN":"No hints"
+		}
+	],
+	"solve": {
+		"RU": "создаем массив со значениями для игры, рандомим значение из этого массива и отправляем на сервер, отправляем пока не выиграем, минут 10 и флаг наш, всё зависит от крутизны рандома)",
+		"EN": "no"
+	},
+	"value":200,
+	"flag_type":"static",
+	"flag_key":"SCTF{W0O0W_Y0uu_w1n_nn3}",
+	"files":[
+	],
+	"links":[
+		{
+			"dropbox":"",
+			"yandex":""
+		}
+	],
+	"authors":[
+		{
+			"team":"Not Found",
+			"name":"@Txyza",
+			"contacts":[
+				"@Txyza"
+			]
+		}
+	]
+}

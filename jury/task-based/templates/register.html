@@ -1,0 +1,28 @@
+<div class="landing-page container">
+
+	<div class="row">
+		<form role="form" action="/register/submit" method="post" enctype="multipart/form-data">
+			<div class="task-box col-md-8 col-md-offset-2">
+				<h1>Регистрация</h1>
+				<br/>
+				<label>Команда:</label>
+				<input type="text" minlength=1 class="form-control" name="user" required title="1 character minimum" maxlength="40">
+				<label>Email:</label>
+				<input type="email" minlength=6 class="form-control" name="email" required title="6 characters minimum" maxlength="40">
+				<label>Пароль:</label>
+				<input type="password" minlength=8 class="form-control" name="password" required title="8 characters minimum" maxlength="40">
+				<label>Принадлежность (ВУЗ, факультет):</label>
+				<input type="text" minlength=2 class="form-control" name="affilation" required title="2 characters minimum" maxlength="40">
+				<label>Состав (до 7 человек):</label>
+				<textarea minlength=20 class="form-control noresize" name="lineup" required title="20 characters minimum" maxlength="1024" rows="7"></textarea>
+				<p></p>
+				<div class="text-center">
+					<label class="checkbox-inline"><input type="checkbox" required value="">Yes, we agree with <a href="./rules.pdf">the general rules and conditions</a></label>
+				</div>
+			<input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info btn-block">
+
+			</div>
+		</form>
+	</div>
+
+</div>

@@ -1,0 +1,44 @@
+{
+	"game":"SibSUTIS CTF 2016",
+	"name":"open me",
+	"category":"joy",
+	"description":{
+		"RU":"В лаборатории X нашли этот архив, но не смогли открыть его. Удастся ли вам? Не забудь обернуть флаг в SCTF{}",
+		"EN":"No description"
+	},
+	"status": "corrupted",
+	"hints":[
+		{
+			"RU":"включай смекалочку",
+			"EN":"No hints"
+		}
+	],
+	"solve":{
+		"RU":"Google в помощь",
+		"EN":"No description"
+	},
+	"value":100,
+	"flag_type":"static",
+	"flag_key":"SCTF{applause}",
+	"files":[
+		{
+			"name":"JOY1.rar",
+			"location":"JOY1.rar"
+		}
+	],
+	"links":[
+		{
+			"dropbox":"",
+			"yandex":""
+		}
+	],
+	"authors":[
+		{
+			"team":"Life",
+			"name":"Виктория",
+			"contacts":[
+				"vk.com/id6322081"
+			]
+		}
+	]
+}

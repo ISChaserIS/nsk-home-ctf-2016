@@ -1,0 +1,40 @@
+{
+	"game":"SibSUTIS CTF 2016",
+	"name":"task2",
+	"category":"admin",
+	"description":{
+		"RU":"Админ лаборатории X очень любит произведения Анжея Сапковского а так же серию игр The Witcher, так что не удивляйтесь небольшим странностям на его рабочем месте. А так как его вкусы очень специфичны, то и свои записи он <a href='https://yadi.sk/d/B4VvHB4iygtB8'>хранит тоже довольно странно</a>. Примечание! Это один общий образ на всю категорию 'Admin'",
+		"EN":"No description"
+	},
+	"status": "verified",
+	"hints":[
+		{
+			"RU":"поищите файлы чтоли?",
+			"EN":"No hints"
+		}
+	],
+	"solve":{
+		"RU": "находим в папке quiz архив .7z ,там внутри лежит пдф,в ней флаг......profit!!!",
+		"EN": "no"
+	},
+	"value":200,
+	"flag_type":"static",
+	"flag_key":"SCTF{Poland_can_in_space}",
+	"files":[
+	],
+	"links":[
+		{
+			"dropbox":"",
+			"yandex":"https://yadi.sk/d/B4VvHB4iygtB8"
+		}
+	],
+	"authors":[
+		{
+			"team":"Life",
+			"name":"@swissarmy",
+			"contacts":[
+				"@swissarmy"
+			]
+		}
+	]
+}

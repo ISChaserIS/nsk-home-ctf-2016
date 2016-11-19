@@ -1,0 +1,44 @@
+{
+	"game":"SibSUTIS CTF 2016",
+	"name":"try gif",
+	"category":"stego",
+	"description":{
+		"RU":"Всё просто - флаг перед глазами",
+		"EN":"No description"
+	},
+	"status": "verified",
+	"hints":[
+		{
+			"RU":"Покадровый повтор организуешь?",
+			"EN":"No hints"
+		}
+	],
+	"solve":{
+		"RU":"Разбиваем гифку на отдельные картинки, загоняем их в stegsolve, фильтруем цветовые каналы, собираем флаг из буковок",
+		"EN":"No description"
+	},
+	"value":200,
+	"flag_type":"static",
+	"flag_key":"SCTF{iTiSvERyE@SYT@sk}",
+	"files":[
+		{
+			"name":"task.gif",
+			"location":"task.gif"
+		}
+	],
+	"links":[
+		{
+			"dropbox":"",
+			"yandex":""
+		}
+	],
+	"authors":[
+		{
+			"team":"Life",
+			"name":"Lalow",
+			"contacts":[
+				"no contacts"
+			]
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"game":"SibSUTIS CTF 2016",
+	"name":"quiz",
+	"category":"admin",
+	"description":{
+		"RU":"<a href='https://yadi.sk/d/B4VvHB4iygtB8'>Это тест</a> для стажеров админа лаборатории X, который ему лень проводить самому и он переложил ответственность на машину. А что же может пригодиться? Да все что угодно, даже то как варить мыло или сделать напалм из апельсинового сока. Примечание! Это один общий образ на всю категорию 'Admin'",
+		"EN":"No description"
+	},
+	"status": "verified",
+	"hints":[
+		{
+			"RU":"Тут только нужно пройти тест, ничего больше",
+			"EN":"No hints"
+		}
+	],
+	"solve":{
+		"RU": "Список ответов: pdftotext -> head -> tail -> grep -> fightclub",
+		"EN": "Answers list: pdftotext -> head -> tail -> grep -> fightclub"
+	},
+	"value":100,
+	"flag_type":"static",
+	"flag_key":"SCTF{l33t_hack3rm4n}",
+	"files":[
+	],
+	"links":[
+		{
+			"dropbox":"",
+			"yandex":"https://yadi.sk/d/B4VvHB4iygtB8"
+		}
+	],
+	"authors":[
+		{
+			"team":"Life",
+			"name":"@swissarmy",
+			"contacts":[
+				"@swissarmy"
+			]
+		}
+	]
+}

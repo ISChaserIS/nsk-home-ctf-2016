@@ -1,0 +1,44 @@
+{
+	"game":"SibSUTIS CTF 2016",
+	"name":"STEGO OVER9000",
+	"category":"stego",
+	"description":{
+		"RU":"Мы обнаружили эти листы бумаги на столе, возле очень яркой лампы, но мы так и не поняли что же на них написано.",
+		"EN":"No description"
+	},
+	"status": "verified",
+	"hints":[
+		{
+			"RU":"Без подсказок",
+			"EN":"No hints"
+		}
+	],
+	"solve":{
+		"RU":"Накладываем одну пикчу на другую в фотошопе - и бац, флаг",
+		"EN":"No description"
+	},
+	"value":100,
+	"flag_type":"static",
+	"flag_key":"SCTF{25ad2365770a15c0ed760a2f724382fb}",
+	"files":[
+		{
+			"name":"over9000.zip",
+			"location":"over9000.zip"
+		}
+	],
+	"links":[
+		{
+			"dropbox":"",
+			"yandex":""
+		}
+	],
+	"authors":[
+		{
+			"team":"Life",
+			"name":"Mr.SaVioR",
+			"contacts":[
+				"vk.com/operativnaya_pamyat_zla"
+			]
+		}
+	]
+}

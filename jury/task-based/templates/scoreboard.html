@@ -1,0 +1,24 @@
+<div class="landing-page container">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>&#35;</th>
+        <th></th>
+        <th>{{ lang.scoreboard.player }}</th>
+        <th>{{ lang.scoreboard.affilation }}</th>
+        <th>{{ lang.scoreboard.score }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for user in scores %}
+      <tr>
+        <td><div>{{ loop.index }}</div></td>
+        <td><div><img style="min-height: 50px; height: 50px;" src={{ url_for('static', filename=user.logo) }} /></div></td>
+        <td><div>{{ user.username }}</div></td>
+        <td><div>{{ user.affilation }}</div></td>
+        <td><div>{{ user.score }}</div></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,40 @@
+{
+	"game":"SibSUTIS CTF 2016",
+	"name":"eat me",
+	"category":"ppc",
+	"description":{
+		"RU":"Вам нужно  сыграть в игру \"съедобное-несъедобное\". Времени на ответ крайне мало - придётся попотеть! <b>nc 10.10.10.9 9000</b>",
+		"EN":"You need to play in classic russian game \"съедобное-несъедобное\". You need to guessing, can we eat this object(item) or not. You are limited in time!  nc 10.10.10.9 9000"
+	},
+	"status": "need verify",
+	"hints":[
+		{
+			"RU":"Всего 583 слова. Помоему следует перебрать?",
+			"EN":"Total word count - 583. You need to brute force this task"
+		}
+	],
+	"solve": {
+		"RU": "Проще всего собрать базу из слов (583) и потом вручную проставить тип. ",
+		"EN": "no"
+	},
+	"value":300,
+	"flag_type":"static",
+	"flag_key":"SCTF{Gr347_5ucc355!_y0u_w1n!_u53_fl4g}",
+	"files":[
+	],
+	"links":[
+		{
+			"dropbox":"",
+			"yandex":""
+		}
+	],
+	"authors":[
+		{
+			"team":"Life",
+			"name":"rodionov12",
+			"contacts":[
+				"rodionov12@gmail.com"
+			]
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"game":"SibSUTIS CTF 2016",
+	"name":"you in the army now",
+	"category":"ppc",
+	"description":{
+		"RU":"Вам нужно попасть в армию, для этого пройдите тест на зрение у нашего бота-окулиста. nc 85.143.211.98 9001",
+		"EN":"hello recruit! You have to go into the army, but first you must pass eye vision test. Do it! nc 85.143.211.98 9001"
+	},
+	"status": "verified",
+	"hints":[
+		{
+			"RU":"Тебе нужно научиться распознавать буквы. Но это не точно",
+			"EN":"You need to recognize the letters"
+		}
+	],
+	"solve": {
+		"RU": "Все буквы разного размера. Либо распознавание, либо по размеру отличать",
+		"EN": "no"
+	},
+	"value":300,
+	"flag_type":"static",
+	"flag_key":"SCTF{Unc13_54m_d035_th3_b35t_h3_c4n}",
+	"files":[
+	],
+	"links":[
+		{
+			"dropbox":"",
+			"yandex":""
+		}
+	],
+	"authors":[
+		{
+			"team":"Life",
+			"name":"rodionov12",
+			"contacts":[
+				"rodionov12@gmail.com"
+			]
+		}
+	]
+}
